@@ -11,13 +11,15 @@ class ViewController: UIViewController {
     
     private var todoModel: TodoModel!
     private var todos = [Todo]()
+    
     @IBOutlet var taskInput: UITextField!
     @IBOutlet var taskTableView: UITableView!
     @IBOutlet var addTaskBtn: UIButton!
+    @IBOutlet var taskDateInput: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       todoModel = TodoModel(delegate: self)
+        todoModel = TodoModel(delegate: self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -35,7 +37,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addTaskBtnAction(_ sender: Any) {
-        self.todoModel.setTask(task: self.taskInput.text!)
+        var date: Date? = self.taskDateInput.date
+        if date!.timeIntervalSince1970 < Date().timeIntervalSince1970 {
+            date = nil
+        }
+        
+        self.todoModel.setTask(task: self.taskInput.text!, date: date)
     }
     
 }

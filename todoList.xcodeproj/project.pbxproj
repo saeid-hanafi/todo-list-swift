@@ -19,6 +19,8 @@
 		5A7911D52A067981008AFBA4 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7911D42A067981008AFBA4 /* Todo.swift */; };
 		5A7911D82A067AE0008AFBA4 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7911D72A067ADF008AFBA4 /* TodoModel.swift */; };
 		5A7911DE2A079E41008AFBA4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7911DD2A079E41008AFBA4 /* TableViewCell.swift */; };
+		5A79122D2A07EA2C008AFBA4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79122C2A07EA2C008AFBA4 /* NotificationManager.swift */; };
+		5A79122F2A07EA4B008AFBA4 /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A79122E2A07EA4B008AFBA4 /* NotificationData.swift */; };
 		86A505F2D551AF9FE87FA127 /* Pods_todoListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D1924AAAF111A4D73E465 /* Pods_todoListTests.framework */; };
 		DA305ED616D5637853B57978 /* Pods_todoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F14A43AA0C7A254A1E44D8D /* Pods_todoList.framework */; };
 		FC011116EAB8F6EF6C089CD7 /* Pods_todoList_todoListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0620C6F5F531463DA0E05B4 /* Pods_todoList_todoListUITests.framework */; };
@@ -61,6 +63,8 @@
 		5A7911D42A067981008AFBA4 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		5A7911D72A067ADF008AFBA4 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		5A7911DD2A079E41008AFBA4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5A79122C2A07EA2C008AFBA4 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5A79122E2A07EA4B008AFBA4 /* NotificationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationData.swift; sourceTree = "<group>"; };
 		7F14A43AA0C7A254A1E44D8D /* Pods_todoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFA3C67D18ECCCD651A8FAC /* Pods-todoListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoListTests.release.xcconfig"; path = "Target Support Files/Pods-todoListTests/Pods-todoListTests.release.xcconfig"; sourceTree = "<group>"; };
 		A66037AD8247CC56D6893AF0 /* Pods-todoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoList.debug.xcconfig"; path = "Target Support Files/Pods-todoList/Pods-todoList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 		5A7911A12A06771C008AFBA4 /* todoList */ = {
 			isa = PBXGroup;
 			children = (
+				5A79122B2A07EA14008AFBA4 /* services */,
 				5A7911DA2A06803B008AFBA4 /* app */,
 				5A7911D92A068029008AFBA4 /* controllers */,
 				5A7911DB2A068057008AFBA4 /* views */,
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				5A7911D32A06796C008AFBA4 /* entities */,
+				5A79122E2A07EA4B008AFBA4 /* NotificationData.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -207,6 +213,14 @@
 				5A7911DD2A079E41008AFBA4 /* TableViewCell.swift */,
 			);
 			path = cells;
+			sourceTree = "<group>";
+		};
+		5A79122B2A07EA14008AFBA4 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				5A79122C2A07EA2C008AFBA4 /* NotificationManager.swift */,
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 		72DA485452F3FB882C5752EF /* Pods */ = {
@@ -473,8 +487,10 @@
 			files = (
 				5A7911A72A06771C008AFBA4 /* ViewController.swift in Sources */,
 				5A7911A32A06771C008AFBA4 /* AppDelegate.swift in Sources */,
+				5A79122F2A07EA4B008AFBA4 /* NotificationData.swift in Sources */,
 				5A7911A52A06771C008AFBA4 /* SceneDelegate.swift in Sources */,
 				5A7911DE2A079E41008AFBA4 /* TableViewCell.swift in Sources */,
+				5A79122D2A07EA2C008AFBA4 /* NotificationManager.swift in Sources */,
 				5A7911D82A067AE0008AFBA4 /* TodoModel.swift in Sources */,
 				5A7911D52A067981008AFBA4 /* Todo.swift in Sources */,
 			);

@@ -19,17 +19,20 @@ protocol TodoAppDelegate: AnyObject {
 class TodoModel {
     private let delegate: TodoAppDelegate!
     private let realmConnection = try! Realm()
+    private let notificationManager = NotificationManager()
     
     init(delegate: TodoAppDelegate!) {
         self.delegate = delegate
     }
     
-    func setTask(task: String) {
+    func setTask(task: String, date: Date?) {
         if task != "" {
-            let newTask = Todo(task: task, isCompleted: false)
+            let newTask = Todo(task: task, isCompleted: false, date: date)
             try! realmConnection.write {
                 realmConnection.add(newTask)
             }
+            
+            self.setNotification(data: newTask)
             delegate?.setTask(data: newTask)
             self.getTasks()
         }else{
@@ -62,6 +65,12 @@ class TodoModel {
                     newTask?.isCompleted = isCompleted
                 }
                 
+                if isCompleted {
+                    notificationManager.removeNotification(identifier: (newTask?._id.stringValue)!)
+                }else{
+                    self.setNotification(data: newTask!)
+                }
+                
                 delegate?.updateTask(data: newTask!)
                 self.getTasks()
             }else{
@@ -81,6 +90,7 @@ class TodoModel {
                 realmConnection.delete(oldTask.first!)
             }
             
+            notificationManager.removeNotification(identifier: id.stringValue)
             delegate?.deleteTask(data: true)
             self.getTasks()
         }else{
@@ -103,5 +113,14 @@ class TodoModel {
         }else{
             delegate?.failedTask(error: "Input is empty!")
         }
+    }
+    
+    private func setNotification(data: Todo) {
+        var notifications = [NotificationData]()
+        var notification = NotificationData(id: data._id.stringValue, title: data.taskText, subTitle: "Let's do it!", dateTime: Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: data.doneDate))
+        notifications.append(notification)
+        notificationManager.notifications = notifications
+        notificationManager.schedules()
+        notificationManager.getPenddingNotifications()
     }
 }
