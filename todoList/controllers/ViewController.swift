@@ -111,11 +111,11 @@ extension ViewController: TodoAppDelegate, UITableViewDelegate, UITableViewDataS
     }
     
     func deleteTask(data: Bool) {
-        print("Deleted Todo is : \(data)")
+//        print("Deleted Todo is : \(data)")
     }
     
     func setTask(data: Todo) {
-        print("Todo is : \(data)")
+//        print("Todo is : \(data)")
         self.taskInput.text = ""
     }
     
@@ -125,11 +125,11 @@ extension ViewController: TodoAppDelegate, UITableViewDelegate, UITableViewDataS
     }
     
     func updateTask(data: Todo) {
-        print("New Todo is : \(data)")
+//        print("New Todo is : \(data)")
     }
     
     func failedTask(error: String) {
-        print("Error is : \(error)")
+//        print("Error is : \(error)")
     }
 }
 

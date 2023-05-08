@@ -121,6 +121,5 @@ class TodoModel {
         notifications.append(notification)
         notificationManager.notifications = notifications
         notificationManager.schedules()
-        notificationManager.getPenddingNotifications()
     }
 }

@@ -61,8 +61,7 @@ class NotificationManager {
                 guard error == nil else {
                     return
                 }
-                
-                print("notification id is : \(notification.id)")
+//                print("notification id is : \(notification.id)")
             }
         }
     }
