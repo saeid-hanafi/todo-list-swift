@@ -99,7 +99,17 @@ extension ViewController: TodoAppDelegate, UITableViewDelegate, UITableViewDataS
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
         let action = UIContextualAction(style: .destructive, title: "Delete") { act, vi, completion in
-            self.todoModel.deleteTask(id: self.todos[indexPath.row]._id)
+            let alert = UIAlertController(title: "Delete Task", message: "Would you like delete this task? (\(String(describing: self.todos[indexPath.row].taskText!)))", preferredStyle: .alert)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive) {_ in
+                self.todoModel.deleteTask(id: self.todos[indexPath.row]._id)
+            }
+            
+            let noAction = UIAlertAction(title: "No", style: .cancel)
+            
+            alert.addAction(yesAction)
+            alert.addAction(noAction)
+            self.present(alert, animated: true)
         }
         action.backgroundColor = .red
         
@@ -111,7 +121,11 @@ extension ViewController: TodoAppDelegate, UITableViewDelegate, UITableViewDataS
     }
     
     func deleteTask(data: Bool) {
-//        print("Deleted Todo is : \(data)")
+        if data {
+            let alert = UIAlertController(title: "Delete Task", message: "Task deleted successfully.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default))
+            self.present(alert, animated: true)
+        }
     }
     
     func setTask(data: Todo) {
