@@ -47,6 +47,7 @@
 		0601D45877DD02071DB89DDE /* Pods-todoList-todoListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoList-todoListUITests.debug.xcconfig"; path = "Target Support Files/Pods-todoList-todoListUITests/Pods-todoList-todoListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F6D1924AAAF111A4D73E465 /* Pods_todoListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBDB403F3E22EAED02D9894 /* Pods-todoList-todoListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoList-todoListUITests.release.xcconfig"; path = "Target Support Files/Pods-todoList-todoListUITests/Pods-todoList-todoListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A2E5E9C2A0A8644006CBDE9 /* todoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = todoList.entitlements; sourceTree = "<group>"; };
 		5A79119F2A06771C008AFBA4 /* todoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7911A22A06771C008AFBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7911A42A06771C008AFBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				7E7FD89C46EA4FB792008770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		5A7911A02A06771C008AFBA4 /* Products */ = {
 			isa = PBXGroup;
@@ -126,6 +128,7 @@
 		5A7911A12A06771C008AFBA4 /* todoList */ = {
 			isa = PBXGroup;
 			children = (
+				5A2E5E9C2A0A8644006CBDE9 /* todoList.entitlements */,
 				5A79122B2A07EA14008AFBA4 /* services */,
 				5A7911DA2A06803B008AFBA4 /* app */,
 				5A7911D92A068029008AFBA4 /* controllers */,
@@ -668,12 +671,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = todoList/todoList.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7673SP667C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = todoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task Reminder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "FBS Codes Copy Right.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -683,8 +694,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasertebat.todoList.todoList;
+				PRODUCT_BUNDLE_IDENTIFIER = iapps.export;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iapps_provisioning_profile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -697,12 +710,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = todoList/todoList.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7673SP667C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = todoList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Task Reminder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "FBS Codes Copy Right.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -712,8 +733,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasertebat.todoList.todoList;
+				PRODUCT_BUNDLE_IDENTIFIER = iapps.export;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iapps_provisioning_profile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
