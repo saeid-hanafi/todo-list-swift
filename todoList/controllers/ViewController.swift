@@ -45,6 +45,13 @@ class ViewController: UIViewController {
         self.todoModel.setTask(task: self.taskInput.text!, date: date)
     }
     
+    @IBAction func supportBtnAction(_ sender: Any) {
+        let alert = UIAlertController(title: "Support Center", message: "saeed.hanafi.ciw@gmail.com", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Ok", style: .cancel)
+        alert.addAction(action)
+        self.present(alert, animated: true)
+    }
 }
 
 extension ViewController: TodoAppDelegate, UITableViewDelegate, UITableViewDataSource {

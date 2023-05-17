@@ -1,0 +1,290 @@
+2023-05-17 10:37:14 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f7864d73450; archive(resolved)="<IDEArchive: 0x6000181bb360>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f7864d73450; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7f786415b730; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f783bebfce0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f783bee58d0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f783bece2a0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f783bece080; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f783b3c8d50; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7865a62e20; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7865a78780; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600003cf4000; teamID='7673SP667C', teamName='Vladislav Kolchuk', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f78641639e0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="(null)">
+	<IDEDistributionContext: 0x7f7864166b60; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="(null)">
+	<IDEDistributionContext: 0x7f78641697f0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="(null)">
+	<IDEDistributionContext: 0x7f783c27d650; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000e7fa1d0>", team="(null)">
+	<IDEDistributionContext: 0x7f786416b6a0; archive = "<IDEArchive: 0x6000181bb360>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7f7864d73450>
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCopyItemStep
+2023-05-17 10:37:14 +0000  Running /usr/bin/ditto '-V' '/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app'
+2023-05-17 10:37:14 +0000  >>> Copying /Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app 
+2023-05-17 10:37:14 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-05-17 10:37:14 +0000  6471 bytes for ./_CodeSignature/CodeResources
+2023-05-17 10:37:14 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-05-17 10:37:14 +0000  6945 bytes for ./AppIcon60x60@2x.png
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2023-05-17 10:37:14 +0000  970 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2023-05-17 10:37:14 +0000  13557 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2023-05-17 10:37:14 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-05-17 10:37:14 +0000  2699 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-05-17 10:37:14 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-05-17 10:37:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-05-17 10:37:14 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./todoList ... 
+156976 bytes for ./todoList
+copying file ./Assets.car ... 
+695903 bytes for ./Assets.car
+copying file ./AppIcon76x76@2x~ipad.png ... 
+10196 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./Frameworks/RealmSwift.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/RealmSwift.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/RealmSwift.framework/RealmSwift ... 
+2023-05-17 10:37:14 +0000  3659264 bytes for ./Frameworks/RealmSwift.framework/RealmSwift
+2023-05-17 10:37:14 +0000  copying file ./Frameworks/RealmSwift.framework/Info.plist ... 
+2023-05-17 10:37:14 +0000  794 bytes for ./Frameworks/RealmSwift.framework/Info.plist
+2023-05-17 10:37:14 +0000  copying file ./Frameworks/libswift_Concurrency.dylib ... 
+2023-05-17 10:37:14 +0000  557584 bytes for ./Frameworks/libswift_Concurrency.dylib
+2023-05-17 10:37:14 +0000  copying file ./Frameworks/Realm.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/Realm.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/Realm.framework/Info.plist ... 
+2023-05-17 10:37:14 +0000  784 bytes for ./Frameworks/Realm.framework/Info.plist
+copying file ./Frameworks/Realm.framework/Realm ... 
+2023-05-17 10:37:14 +0000  10828944 bytes for ./Frameworks/Realm.framework/Realm
+2023-05-17 10:37:14 +0000  copying file ./embedded.mobileprovision ... 
+2023-05-17 10:37:14 +0000  19934 bytes for ./embedded.mobileprovision
+2023-05-17 10:37:14 +0000  copying file ./Info.plist ... 
+2023-05-17 10:37:14 +0000  1764 bytes for ./Info.plist
+2023-05-17 10:37:14 +0000  copying file ./PkgInfo ... 
+2023-05-17 10:37:14 +0000  8 bytes for ./PkgInfo
+2023-05-17 10:37:14 +0000  /usr/bin/ditto exited with 0
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-05-17 10:37:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x600018f06be0; bundleID='org.cocoapods.Realm', path='<DVTFilePath:0x600008dd2680:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286accd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000127c370; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.Realm', executablePath='<DVTFilePath:0x600018f18120:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework/Realm'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x600018f19b00; bundleID='org.cocoapods.RealmSwift', path='<DVTFilePath:0x600008dd1110:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000118a260; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.RealmSwift', executablePath='<DVTFilePath:0x60000cef5ab0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework/RealmSwift'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x600018f02400; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a8f00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001182cb0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionSymbolsStep
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionAppThinningStep
+2023-05-17 10:37:14 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionArchThinningStep
+2023-05-17 10:37:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/Realm.framework/Realm' '-verify_arch' 'arm64e'
+2023-05-17 10:37:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-17 10:37:14 +0000  Skipping architecture thinning for item "Realm" because arch "arm64e" wasn't found
+2023-05-17 10:37:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/RealmSwift.framework/RealmSwift' '-verify_arch' 'arm64e'
+2023-05-17 10:37:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-17 10:37:14 +0000  Skipping architecture thinning for item "RealmSwift" because arch "arm64e" wasn't found
+2023-05-17 10:37:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib' '-verify_arch' 'arm64e'
+2023-05-17 10:37:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-17 10:37:14 +0000  Skipping architecture thinning for item "libswift_Concurrency.dylib" because arch "arm64e" wasn't found
+2023-05-17 10:37:14 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/todoList' '-verify_arch' 'arm64e'
+2023-05-17 10:37:14 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-05-17 10:37:14 +0000  Skipping architecture thinning for item "todoList" because arch "arm64e" wasn't found
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionODRStep
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-05-17 10:37:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600018f06be0; bundleID='org.cocoapods.Realm', path='<DVTFilePath:0x600008dd2680:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286accd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001189550; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.Realm', executablePath='<DVTFilePath:0x600018f18120:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework/Realm'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600018f19b00; bundleID='org.cocoapods.RealmSwift', path='<DVTFilePath:0x600008dd1110:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001189550; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.RealmSwift', executablePath='<DVTFilePath:0x60000cef5ab0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework/RealmSwift'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600018f02400; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a8f00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001189550; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>
+2023-05-17 10:37:14 +0000  Running /usr/bin/xattr '-crs' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app'
+2023-05-17 10:37:14 +0000  /usr/bin/xattr exited with 0
+2023-05-17 10:37:14 +0000  Processing step: IDEDistributionCodesignStep
+2023-05-17 10:37:14 +0000  Entitlements for <IDEDistributionItem: 0x600018f06be0; bundleID='org.cocoapods.Realm', path='<DVTFilePath:0x600008dd2680:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286accd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000122af70; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.Realm', executablePath='<DVTFilePath:0x600018f18120:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework/Realm'>', hardenedRuntime='0'>'>: {
+}
+2023-05-17 10:37:14 +0000  Entitlements for <IDEDistributionItem: 0x600018f06be0; bundleID='org.cocoapods.Realm', path='<DVTFilePath:0x600008dd2680:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286accd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001276520; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.Realm', executablePath='<DVTFilePath:0x600018f18120:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework/Realm'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-17 10:37:14 +0000  Writing entitlements for <IDEDistributionItem: 0x600018f06be0; bundleID='org.cocoapods.Realm', path='<DVTFilePath:0x600008dd2680:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286accd0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001225ad0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.Realm', executablePath='<DVTFilePath:0x600018f18120:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/Realm.framework/Realm'>', hardenedRuntime='0'>'> to: /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~tkyi9Y
+2023-05-17 10:37:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1' '--entitlements' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~tkyi9Y' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/Realm.framework'
+2023-05-17 10:37:14 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/Realm.framework: replacing existing signature
+2023-05-17 10:37:14 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/Realm.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.Realm]
+2023-05-17 10:37:14 +0000  /usr/bin/codesign exited with 0
+2023-05-17 10:37:14 +0000  Entitlements for <IDEDistributionItem: 0x600018f19b00; bundleID='org.cocoapods.RealmSwift', path='<DVTFilePath:0x600008dd1110:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001182cb0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.RealmSwift', executablePath='<DVTFilePath:0x60000cef5ab0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework/RealmSwift'>', hardenedRuntime='0'>'>: {
+}
+2023-05-17 10:37:14 +0000  Entitlements for <IDEDistributionItem: 0x600018f19b00; bundleID='org.cocoapods.RealmSwift', path='<DVTFilePath:0x600008dd1110:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000126d3f0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.RealmSwift', executablePath='<DVTFilePath:0x60000cef5ab0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework/RealmSwift'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-17 10:37:14 +0000  Writing entitlements for <IDEDistributionItem: 0x600018f19b00; bundleID='org.cocoapods.RealmSwift', path='<DVTFilePath:0x600008dd1110:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9540; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000126d340; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='org.cocoapods.RealmSwift', executablePath='<DVTFilePath:0x60000cef5ab0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/RealmSwift.framework/RealmSwift'>', hardenedRuntime='0'>'> to: /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~ytKLP8
+2023-05-17 10:37:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1' '--entitlements' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~ytKLP8' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/RealmSwift.framework'
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/RealmSwift.framework: replacing existing signature
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/RealmSwift.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.RealmSwift]
+2023-05-17 10:37:15 +0000  /usr/bin/codesign exited with 0
+2023-05-17 10:37:15 +0000  Entitlements for <IDEDistributionItem: 0x600018f02400; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a8f00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000012082c0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-05-17 10:37:15 +0000  Entitlements for <IDEDistributionItem: 0x600018f02400; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a8f00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001189550; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-05-17 10:37:15 +0000  Writing entitlements for <IDEDistributionItem: 0x600018f02400; bundleID='com.apple.dt.runtime.swiftConcurrency', path='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a8f00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001209ce0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='(null)', teamID='7673SP667C', identifier='com.apple.dt.runtime.swiftConcurrency', executablePath='<DVTFilePath:0x6000089ed000:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/Frameworks/libswift_Concurrency.dylib'>', hardenedRuntime='0'>'> to: /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~hYOkFv
+2023-05-17 10:37:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1' '--entitlements' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~hYOkFv' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib'
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib: replacing existing signature
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib: signed Mach-O thin (arm64) [com.apple.dt.runtime.swiftConcurrency]
+2023-05-17 10:37:15 +0000  /usr/bin/codesign exited with 0
+2023-05-17 10:37:15 +0000  Entitlements for <IDEDistributionItem: 0x600018f026a0; bundleID='iapps.export', path='<DVTFilePath:0x600008dd11f0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001276520; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='{
+    "application-identifier" = "7673SP667C.iapps.export";
+    "com.apple.developer.authentication-services.autofill-credential-provider" = 1;
+    "com.apple.developer.game-center" = 1;
+    "com.apple.developer.team-identifier" = 7673SP667C;
+    "get-task-allow" = 0;
+}', teamID='7673SP667C', identifier='iapps.export', executablePath='<DVTFilePath:0x60000cef1a40:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/todoList'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "7673SP667C.iapps.export";
+    "com.apple.developer.authentication-services.autofill-credential-provider" = 1;
+    "com.apple.developer.game-center" = 1;
+    "com.apple.developer.team-identifier" = 7673SP667C;
+    "get-task-allow" = 0;
+}
+2023-05-17 10:37:15 +0000  Entitlements for <IDEDistributionItem: 0x600018f026a0; bundleID='iapps.export', path='<DVTFilePath:0x600008dd11f0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001189550; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='{
+    "application-identifier" = "7673SP667C.iapps.export";
+    "com.apple.developer.authentication-services.autofill-credential-provider" = 1;
+    "com.apple.developer.game-center" = 1;
+    "com.apple.developer.team-identifier" = 7673SP667C;
+    "get-task-allow" = 0;
+}', teamID='7673SP667C', identifier='iapps.export', executablePath='<DVTFilePath:0x60000cef1a40:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/todoList'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "7673SP667C.iapps.export";
+    "com.apple.developer.authentication-services.autofill-credential-provider" = 1;
+    "com.apple.developer.game-center" = 1;
+    "com.apple.developer.team-identifier" = 7673SP667C;
+    "get-task-allow" = 0;
+}
+2023-05-17 10:37:15 +0000  Writing entitlements for <IDEDistributionItem: 0x600018f026a0; bundleID='iapps.export', path='<DVTFilePath:0x600008dd11f0:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000286a9270; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000011896b0; name='Apple Distribution: Vladislav Kolchuk (7673SP667C)', hash='BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1', serialNumber='788137214EAC5305BCA355A1600BACD4', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-02-21 09:34:17 +0000''>', entitlements='{
+    "application-identifier" = "7673SP667C.iapps.export";
+    "com.apple.developer.authentication-services.autofill-credential-provider" = 1;
+    "com.apple.developer.game-center" = 1;
+    "com.apple.developer.team-identifier" = 7673SP667C;
+    "get-task-allow" = 0;
+}', teamID='7673SP667C', identifier='iapps.export', executablePath='<DVTFilePath:0x60000cef1a40:'/Users/macvps/Library/Developer/Xcode/Archives/2023-05-17/Task Reminder 5-17-23, 3.36 AM.xcarchive/Products/Applications/todoList.app/todoList'>', hardenedRuntime='0'>'> to: /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~fZ7WXb
+2023-05-17 10:37:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'BFBD16DF91AAAA84379793C7C88DDEFF7925E4D1' '--entitlements' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/entitlements~~~fZ7WXb' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app'
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app: replacing existing signature
+2023-05-17 10:37:15 +0000  /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app: signed app bundle with Mach-O thin (arm64) [iapps.export]
+2023-05-17 10:37:15 +0000  /usr/bin/codesign exited with 0
+2023-05-17 10:37:15 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-05-17 10:37:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-17 10:37:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-17 10:37:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-17 10:37:15 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-05-17 10:37:15 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-05-17 10:37:15 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root' '/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Packages/todoList.ipa'
+2023-05-17 10:37:15 +0000  >>> Copying /var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root 
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/_CodeSignature/CodeResources ... 
+2023-05-17 10:37:15 +0000  6471 bytes for ./Payload/todoList.app/_CodeSignature/CodeResources
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/AppIcon60x60@2x.png ... 
+2023-05-17 10:37:15 +0000  6945 bytes for ./Payload/todoList.app/AppIcon60x60@2x.png
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+970 bytes for ./Payload/todoList.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/todoList.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2023-05-17 10:37:15 +0000  13557 bytes for ./Payload/todoList.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/todoList.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-05-17 10:37:15 +0000  2699 bytes for ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/todoList.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/todoList.app/todoList ... 
+2023-05-17 10:37:15 +0000  156976 bytes for ./Payload/todoList.app/todoList
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Assets.car ... 
+2023-05-17 10:37:15 +0000  695903 bytes for ./Payload/todoList.app/Assets.car
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/AppIcon76x76@2x~ipad.png ... 
+2023-05-17 10:37:15 +0000  10196 bytes for ./Payload/todoList.app/AppIcon76x76@2x~ipad.png
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Frameworks/RealmSwift.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/todoList.app/Frameworks/RealmSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/todoList.app/Frameworks/RealmSwift.framework/RealmSwift ... 
+2023-05-17 10:37:15 +0000  3659520 bytes for ./Payload/todoList.app/Frameworks/RealmSwift.framework/RealmSwift
+copying file ./Payload/todoList.app/Frameworks/RealmSwift.framework/Info.plist ... 
+2023-05-17 10:37:15 +0000  794 bytes for ./Payload/todoList.app/Frameworks/RealmSwift.framework/Info.plist
+copying file ./Payload/todoList.app/Frameworks/libswift_Concurrency.dylib ... 
+2023-05-17 10:37:15 +0000  557936 bytes for ./Payload/todoList.app/Frameworks/libswift_Concurrency.dylib
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Frameworks/Realm.framework/_CodeSignature/CodeResources ... 
+2023-05-17 10:37:15 +0000  1798 bytes for ./Payload/todoList.app/Frameworks/Realm.framework/_CodeSignature/CodeResources
+copying file ./Payload/todoList.app/Frameworks/Realm.framework/Info.plist ... 
+784 bytes for ./Payload/todoList.app/Frameworks/Realm.framework/Info.plist
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Frameworks/Realm.framework/Realm ... 
+2023-05-17 10:37:15 +0000  10829216 bytes for ./Payload/todoList.app/Frameworks/Realm.framework/Realm
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/embedded.mobileprovision ... 
+2023-05-17 10:37:15 +0000  19934 bytes for ./Payload/todoList.app/embedded.mobileprovision
+2023-05-17 10:37:15 +0000  copying file ./Payload/todoList.app/Info.plist ... 
+2023-05-17 10:37:15 +0000  1764 bytes for ./Payload/todoList.app/Info.plist
+copying file ./Payload/todoList.app/PkgInfo ... 
+8 bytes for ./Payload/todoList.app/PkgInfo
+2023-05-17 10:37:15 +0000  copying file ./AppThinning.plist ... 
+2023-05-17 10:37:15 +0000  228 bytes for ./AppThinning.plist
+2023-05-17 10:37:15 +0000  /usr/bin/ditto exited with 0
+2023-05-17 10:37:15 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-05-17 10:37:15 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-05-17 10:37:15 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-05-17 10:37:15 +0000  IDEDistributionItem init <DVTFilePath:0x60000cecb4f0:'/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/Realm.framework'>
+2023-05-17 10:37:15 +0000  IDEDistributionItem init <DVTFilePath:0x60000cedc850:'/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/RealmSwift.framework'>
+2023-05-17 10:37:15 +0000  IDEDistributionItem init <DVTFilePath:0x60000890d980:'/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib'>
+2023-05-17 10:37:15 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x60000890d980:'/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app/Frameworks/libswift_Concurrency.dylib'>
+2023-05-17 10:37:15 +0000  IDEDistributionItem init <DVTFilePath:0x60000ced7250:'/var/folders/sb/qjkwrxwj6bx7936vssk9pxt00000gp/T/XcodeDistPipeline.~~~u53Z55/Root/Payload/todoList.app'>
+2023-05-17 10:37:15 +0000  Processing step: IDEDistributionCreateManifestStep
